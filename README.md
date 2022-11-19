@@ -21,3 +21,20 @@ layers, which are:
 • Convolutional layer
 • Pooling layer
 • Fully-connected (FC) layer
+# Convolutional layer
+The convolutional layer is the core building block of a CNN, and it is where the majority of
+computation occurs. It requires a few components, which are input data, a filter, and a feature
+map. Let’s assume that the input will be a colour image, which is made up of a matrix of
+pixels in 3D. This means that the input will have three dimensions—a height, width, and
+depth—which correspond to RGB in an image. We also have a feature detector, also known
+as a kernel or a filter, which will move across the receptive fields of the image, checking if
+the feature is present. This process is known as a convolution.
+# Pooling Layer:
+Pooling layers, also known as down sampling, conducts dimensionality reduction, reducing
+the number of parameters in the input.While a lot of information is lost in the pooling layer, it also has a number of benefits to the
+CNN. They help to reduce complexity, improve efficiency, and limit risk of overfitting.
+# Fully connected Layer:
+The name of the full-connected layer aptly describes itself. As mentioned earlier, the pixel
+values of the input image are not directly connected to the output layer in partially connected
+layers. However, in the fully-connected layer, each node in the output layer connects directly
+to a node in the previous layer.
